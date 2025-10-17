@@ -49,6 +49,24 @@ section {
   width: 100%;
   max-width: 500px;
 }
+/* Hide bullet points for participants list */
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Style for delete icon */
+.delete-icon {
+  display: inline-block;
+  margin-left: 10px;
+  color: #d32f2f;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #b71c1c;
+}
 
 section h3 {
   margin-bottom: 20px;
